@@ -109,3 +109,28 @@ degree_sign = u'\N{DEGREE SIGN}'
 side_ab, side_bc = int(input()), int(input())
 print(str(round(math.degrees(math.atan(side_ab/side_bc)))) + degree_sign)
 ``` 
+
+## Happiness
+
+### In this problem there are two sets A and B. We provide an array and if the elements of the array is in Set A then the add happy index by 1 or subtract by 1 if the element is in Set B.
+
+```py
+n_and_m = input()
+integers = input().split(' ')
+set_a = set(input().split(' '))
+set_b = set(input().split(' '))
+happy_index = 0
+n_string = ''
+
+for i in integers:
+    if i in set_a:
+        happy_index += 1
+    elif i in set_b:
+        happy_index -= 1
+
+print(happy_index)
+```
+
+> I kept getting timeout errors - meaning the code took more time to execute than asked for - so when i used `set()` it decreased the time taken.
+
+### Main takeaway: `set()`
