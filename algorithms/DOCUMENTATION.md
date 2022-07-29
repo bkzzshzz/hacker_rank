@@ -26,4 +26,6 @@ return [alice_point, bob_point]
 format(variableName, '.6f')
 ```
 
-### Another easy 10 points for solving the `staircase` problem. Strings manipulation in python makes this real easy. 
+### Another easy 10 points for solving the `staircase` problem. Strings manipulation in python makes this real easy.
+
+### The `minMaxSum` was about finding the max and min sum from 5 integers using only four of them. 
